@@ -18,4 +18,9 @@ export class CarsServiceService {
     return  this.http.get(this.url);
   }
   //---------------------------------------------
+
+  addCarData(data: any){
+
+    return this.http.post(this.url, data);
+  }
 }

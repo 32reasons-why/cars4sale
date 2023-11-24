@@ -1,1 +1,31 @@
-<p>add-car works!</p>
+
+
+
+<div class="login-box">
+    <h4>Add a Car to Database</h4>
+    <form [formGroup] = "addCar" (ngSubmit)="SaveData()">
+      <div class="user-box">
+        <input type="text" class="form-control" formControlName="make" required="">
+        <label>Make</label>
+      </div>
+      <div class="user-box">
+        <input type="text" class="form-control"  formControlName="model" required="">
+        <label>Model</label>
+      </div>
+      <div class="user-box">
+        <input type="text" class="form-control"  formControlName="year" required="">
+        <label>Year</label>
+      </div>
+      <div class="user-box">
+        <input type="text" class="form-control"  formControlName="spec" required="">
+        <label>Spec</label>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Add Car</button>
+    </form>
+  </div>

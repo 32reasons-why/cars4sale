@@ -1,12 +1,46 @@
 {
-
-    "Cars" : [
-        {
-            "id": 220257851,
-            "make": "Volkswagen",
-            "model": "Caravelle T3",
-            "year": "2000",
-            "spec": "Active Spec"
-        }
-    ]
+  "Cars": [
+    {
+      "id": 220257851,
+      "make": "Volkswagen",
+      "model": "Caravelle T3",
+      "year": "2000",
+      "spec": "Active Spec"
+    },
+    {
+      "id": 220257852,
+      "make": "BMW",
+      "model": "3-series e36",
+      "year": "1998",
+      "spec": "328i M-Spec"
+    },
+    {
+      "id": 220257853,
+      "make": "Toyota",
+      "model": "Land-Cruiser j79",
+      "year": "2022",
+      "spec": "LX V8 Spec"
+    },
+    {
+      "id": 220257854,
+      "make": "Volkswagen",
+      "model": "Jetta MK3",
+      "year": "1995",
+      "spec": "VR6 OBD1 Spec"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "C-Class w204",
+      "year": "2012",
+      "spec": "C63 507 Edition",
+      "id": 220257857
+    },
+    {
+      "make": "Toyota",
+      "model": "Hilux GD-6",
+      "year": "2019",
+      "spec": "Legend 50 Edition Super-Cab",
+      "id": 220257858
+    }
+  ]
 }
